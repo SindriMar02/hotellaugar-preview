@@ -1,17 +1,31 @@
 <!doctype html>
 <html lang="en">
 <head>
+<script>(function () {
+  var root = document.documentElement;
+  function set(v) { if (root.getAttribute('data-input') !== v) root.setAttribute('data-input', v); }
+  addEventListener('pointerdown', function () { set('pointer'); }, true);
+  addEventListener('keydown', function (e) {
+    if (e.key === 'Shift' || e.key === 'Control' || e.key === 'Alt' || e.key === 'Meta') return;
+    set('key');
+  }, true);
+})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Explore North Iceland from Laugar | Hótel Laugar</title>
-<meta name="description" content="Hótel Laugar sits in the middle of the Diamond Circle: Goðafoss 15 km, Mývatn 30 km, Húsavík 40 km, Akureyri 60 km, Dettifoss and Ásbyrgi 100 km. Pool, golf and riding at the door.">
+<meta name="description" content="Hótel Laugar sits in the middle of the Diamond Circle: Goðafoss 15 km, Mývatn 30 km, Húsavík 40 km, Akureyri 60 km, Dettifoss and Ásbyrgi 100 km. How far, how long, and what to combine. Pool, golf, riding, walks and day tours at the door.">
 <link rel="canonical" href="https://hotellaugar.is/explore/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Explore North Iceland from Laugar | Hótel Laugar">
+<meta property="og:description" content="Every stop on the Diamond Circle as a day trip from the same bed: distances, drive times and what to combine.">
+<meta property="og:image" content="https://sindrimar02.github.io/hotellaugar-preview/photos/sunset-1600.webp">
 <meta name="theme-color" content="#F3F4F1">
 <script>(function(d){if(!matchMedia("(prefers-reduced-motion: reduce)").matches){d.classList.add("js");try{if(sessionStorage.getItem("hlTurn"))d.classList.add("pre")}catch(e){}}})(document.documentElement)</script>
 <link rel="icon" href="/hotellaugar-preview/favicon.svg" type="image/svg+xml">
-  <script type="module" crossorigin src="/hotellaugar-preview/assets/site-0R7HLGcx.js"></script>
-  <link rel="stylesheet" crossorigin href="/hotellaugar-preview/assets/site-ByU40F1j.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Hótel Laugar","item":"https://hotellaugar.is/"},{"@type":"ListItem","position":2,"name":"Explore North Iceland","item":"https://hotellaugar.is/explore/"}]}</script>
+  <script type="module" crossorigin src="/hotellaugar-preview/assets/site-CBO_R6HF.js"></script>
+  <link rel="stylesheet" crossorigin href="/hotellaugar-preview/assets/site-CkzyYoOk.css">
 </head>
 <body>
 <div class="hl-turn" aria-hidden="true"></div>
@@ -26,14 +40,19 @@
     <svg class="houses" viewBox="350 6 495 212" aria-hidden="true" focusable="false"><use class="roof" href="/hotellaugar-preview/brand/mark.svg#roofs"/><use class="wall-use" href="/hotellaugar-preview/brand/mark.svg#walls"/></svg>
     <span class="word">Hótel Laugar</span>
   </a>
-  <div class="hl-right"><a class="hl-btn hl-btn--head" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><svg class="hl-arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a></div>
+  <div class="hl-right">
+    <a class="hl-btn hl-btn--red hl-btn--head" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
+  </div>
 </header>
-<div class="hl-menu" id="menu">
-  <a class="big" href="/hotellaugar-preview/rooms/">Rooms &amp; Stay</a><a class="big" href="/hotellaugar-preview/food/">Food &amp; Drink</a><a class="big" href="/hotellaugar-preview/explore/">Explore North Iceland</a><a class="big" href="/hotellaugar-preview/questions/">FAQ</a>
-  <a class="hl-btn hl-btn--red" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><svg class="hl-arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a>
-  <p class="hl-small">Austurhlíðarvegur, 650 Laugar · <a href="tel:+3544664009">+354 466 4009</a></p>
+<div class="hl-menu" id="menu" tabindex="-1">
+  <nav aria-label="Menu">
+    <a class="big" href="/hotellaugar-preview/rooms/">Rooms &amp; Stay</a><a class="big" href="/hotellaugar-preview/food/">Food &amp; Drink</a><a class="big" href="/hotellaugar-preview/explore/">Explore North Iceland</a><a class="big" href="/hotellaugar-preview/gallery/">Gallery</a><a class="big" href="/hotellaugar-preview/questions/">FAQ</a>
+  </nav>
+  <div class="hl-menu__foot">
+    <a class="hl-btn hl-btn--red" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
+    <p class="hl-small">Open 31 May to 22 August 2027<br>Austurhlíðarvegur, 650 Laugar · <a href="tel:+3544664009">+354 466 4009</a></p>
+  </div>
 </div>
-
 
 
 <main id="main">
@@ -43,90 +62,146 @@
   <div class="hl-band__echo" aria-hidden="true">Explore</div>
   <div class="hl-band__text">
     <h1 class="hl-h1">Explore North Iceland</h1>
-    <p>Laugar is at the crossroads of the north east. Every stop on the Diamond Circle is a day trip from the same bed.</p>
+    <p>Reykjadalur, between Akureyri, Húsavík and Mývatn. Every stop on the Diamond Circle is a day trip from the same bed.</p>
   </div>
 </section>
 
-<section class="hl-sec">
+<!-- REYKJADALUR FIRST -->
+<section class="hl-sec" id="reykjadalur">
   <div class="hl-wrap">
-    <div class="hl-rise" style="margin-bottom: clamp(32px, 5vw, 64px)">
-      <h2 class="hl-h2"><span class="hl-mask"><span>By road from the hotel</span></span></h2>
-      <p class="hl-lede" style="margin-top: 16px">Distances are driving distances from Laugar. Two nights covers Goðafoss and Mývatn. A third adds Húsavík and the whales, a fourth the big falls and Ásbyrgi.</p>
+    <div class="hl-valley">
+      <div class="hl-rise">
+        <h2 class="hl-h2"><span class="hl-mask"><span>Reykjadalur,</span></span> <span class="hl-mask"><span>not merely <em>near Mývatn</em></span></span></h2>
+        <p>The valley of the Reykjadalsá river, with Laugar in the middle of it: the school, the village pool, the farms and the road north to Húsavík. Goðafoss is a quarter of an hour west on the ring road, Mývatn half an hour east. Two nights covers both. A third adds Húsavík and the whales, a fourth the big falls and Ásbyrgi.</p>
+      </div>
+      <figure class="hl-fig r32 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/valley-1600.webp" srcset="/hotellaugar-preview/photos/valley-1000.webp 1000w, /hotellaugar-preview/photos/valley-1600.webp 1600w, /hotellaugar-preview/photos/valley-2400.webp 2400w" sizes="(min-width: 1024px) 58vw, 100vw" width="5946" height="3964" alt="Hótel Laugar from across the river: white buildings with red roofs under the green hillside" loading="lazy"></figure>
     </div>
-    <div class="hl-places">
-      <article class="hl-place" id="godafoss">
-        <figure class="hl-fig r32 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/pond-grass-1000.webp" srcset="/hotellaugar-preview/photos/pond-grass-1000.webp 1000w, /hotellaugar-preview/photos/pond-grass-1600.webp 1600w" sizes="(min-width: 768px) 48vw, 100vw" width="5672" height="3781" alt="Tall grass at the water’s edge in the evening" loading="lazy"></figure>
-        <h3 class="hl-h3">Goðafoss <span class="hl-mono">15 km</span></h3>
-        <p>The waterfall of the gods on the Skjálfandafljót, where the law speaker is said to have thrown the old idols in the year 1000. A quarter of an hour west along the ring road, and best early or late when the coaches have gone.</p>
+
+    <h2 class="hl-h3" style="margin-bottom: 20px">By road from the hotel</h2>
+    <div class="hl-stops">
+      <article class="hl-stop2 hl-stop2--wide" id="godafoss">
+        <h3 class="hl-stop2__name">Goðafoss <span class="hl-mono">15 km · 15 min</span></h3>
+        <p>The waterfall of the gods on the Skjálfandafljót, where the law speaker is said to have thrown the old idols in the year 1000. West along the ring road; best early or late when the coaches have gone. Half a day, or an hour on the way to Akureyri.</p>
+        <div class="hl-stop2__facts"><span>Day trip: yes</span><span>Combine with: Akureyri</span></div>
       </article>
-      <article class="hl-place" id="myvatn">
-        <figure class="hl-fig r32 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/valley-1000.webp" srcset="/hotellaugar-preview/photos/valley-1000.webp 1000w, /hotellaugar-preview/photos/valley-1600.webp 1600w" sizes="(min-width: 768px) 48vw, 100vw" width="5946" height="3964" alt="Green hillside above Reykjadalur" loading="lazy"></figure>
-        <h3 class="hl-h3">Mývatn <span class="hl-mono">30 km</span></h3>
-        <p>Pseudo craters, the lava of Dimmuborgir, the steam at Hverir and the Nature Baths. Half an hour east. The midges that give the lake its name are worst on still days; a head net from the petrol station is money well spent.</p>
+      <article class="hl-stop2 hl-stop2--wide" id="myvatn">
+        <h3 class="hl-stop2__name">Lake Mývatn <span class="hl-mono">30 km · 30 min</span></h3>
+        <p>Pseudo craters, the lava of Dimmuborgir, the steam at Hverir and the Nature Baths. A full day, and the midges that give the lake its name are worst on still days; a head net from the petrol station is money well spent.</p>
+        <div class="hl-stop2__facts"><span>Day trip: yes</span><span>Combine with: Dettifoss</span></div>
       </article>
-      <article class="hl-place" id="husavik">
-        <h3 class="hl-h3">Húsavík <span class="hl-mono">40 km</span></h3>
-        <p>The whale watching capital of Europe, forty minutes north on Skjálfandi bay, with whale watching tours from the harbour.</p>
+      <article class="hl-stop2" id="husavik">
+        <h3 class="hl-stop2__name">Húsavík <span class="hl-mono">40 km · 40 min</span></h3>
+        <p>The whale watching capital of Europe, north on Skjálfandi bay, with tours from the harbour and the sea baths above the town.</p>
+        <div class="hl-stop2__facts"><span>Day trip: yes</span><span>Best: June to August</span></div>
       </article>
-      <article class="hl-place" id="akureyri">
-        <h3 class="hl-h3">Akureyri <span class="hl-mono">60 km</span></h3>
-        <p>The capital of the north, an hour west through the Vaðlaheiði tunnel: the botanical garden, the church on the steps, the swimming pool, and the airport for domestic flights.</p>
+      <article class="hl-stop2" id="akureyri">
+        <h3 class="hl-stop2__name">Akureyri <span class="hl-mono">60 km · 1 h</span></h3>
+        <p>The capital of the north, west through the Vaðlaheiði tunnel: the botanical garden, the church on the steps, the pool, and the airport for domestic flights.</p>
+        <div class="hl-stop2__facts"><span>Day trip: yes</span><span>Combine with: Goðafoss</span></div>
       </article>
-      <article class="hl-place" id="dettifoss">
-        <h3 class="hl-h3">Dettifoss <span class="hl-mono">100 km</span></h3>
-        <p>The most powerful waterfall in Europe, in Vatnajökull National Park. About an hour and a half east. The west bank road is paved; check conditions on road.is before you go.</p>
+      <article class="hl-stop2" id="dettifoss">
+        <h3 class="hl-stop2__name">Dettifoss <span class="hl-mono">100 km · 1 h 30</span></h3>
+        <p>The most powerful waterfall in Europe, in Vatnajökull National Park. The west bank road is paved; check road.is before you go.</p>
+        <div class="hl-stop2__facts"><span>Day trip: yes</span><span>Combine with: Ásbyrgi</span></div>
       </article>
-      <article class="hl-place" id="asbyrgi">
-        <h3 class="hl-h3">Ásbyrgi <span class="hl-mono">100 km</span></h3>
-        <p>The horseshoe canyon, said to be the hoofprint of Óðinn’s horse. Woods, a still pond under the cliffs, and short walks. Combine with Dettifoss for a full day and come back for dinner.</p>
+      <article class="hl-stop2" id="asbyrgi">
+        <h3 class="hl-stop2__name">Ásbyrgi <span class="hl-mono">100 km · 1 h 30</span></h3>
+        <p>The horseshoe canyon, said to be the hoofprint of Óðinn’s horse. Woods, a still pond under the cliffs, short walks. With Dettifoss it is a full day, and you are back for dinner.</p>
+        <div class="hl-stop2__facts"><span>Day trip: yes</span><span>Combine with: Dettifoss</span></div>
+      </article>
+      <article class="hl-stop2" id="diamond-circle">
+        <h3 class="hl-stop2__name">The Diamond Circle <span class="hl-mono">one day, or three</span></h3>
+        <p>Goðafoss, Mývatn, Dettifoss, Ásbyrgi and Húsavík make the circle, and Laugar is inside it. Drive it in one long summer day, or take a piece each day and come home for dinner.</p>
+        <div class="hl-stop2__facts"><span>Base: 2 to 4 nights</span></div>
       </article>
     </div>
   </div>
 </section>
 
-<section class="hl-sec hl-sec--tight">
+<!-- AT THE DOOR -->
+<section class="hl-sec hl-sec--tight" id="at-the-door">
   <div class="hl-wrap hl-grid">
     <div class="hl-c5 hl-rise">
       <h2 class="hl-h2"><span class="hl-mask"><span>At the door</span></span></h2>
       <p style="margin-top: 16px; max-width: 30em">Not everything needs the car.</p>
-      <ul class="hl-room-facts" style="margin-top: 24px; columns: 1">
-        <li><b>The pool</b>, Sundlaugin Laugum, a minute’s walk: big pool, two hot tubs, children’s pool, cold tub, sauna and outdoor shower, open 10:00 to 21:00. Paid at the pool, the ticket includes the gym, towels from reception.</li>
-        <li><b>Golf</b>: a golf course at Laugar, paid separately.</li>
-        <li><b>Horse riding</b> nearby, paid separately.</li>
-        <li><b>Walks</b> along the Reykjadalsá river and up the hill behind Fjall for the valley view.</li>
-        <!-- Astrid, 10 Oct: partners belong in the tour section, not the menu; Kip with Askja. kip.is/askja-the-caldera read 10 Oct. Vallholt = snowdogsiceland.is/location GPS 65.632472,-17.324376 (650 Laugar), 16.6 km by road from the hotel pin (OSRM), not at the lake. -->
-        <li><b>Tours</b>: private day tours in North Iceland with <a class="hl-link" href="https://kip.is/" target="_blank" rel="noopener">Kip</a>, including <a class="hl-link" href="https://kip.is/askja-the-caldera/" target="_blank" rel="noopener">a full day to the Askja caldera</a> in the highlands once the roads open, normally at the end of June. Husky cart rides and kennel visits with <a class="hl-link" href="https://www.snowdogsiceland.is/" target="_blank" rel="noopener">Snow Dogs Iceland</a> at Vallholt farm, about 17 km from the hotel.</li>
-      </ul>
+      <ol class="hl-dist" style="margin-top: 20px">
+        <li class="hl-row"><span class="hl-row__name">The pool</span><span class="hl-row__fact">a minute on foot</span><span class="hl-row__text">Sundlaugin Laugum: a big pool, two hot tubs, a children’s pool, a cold tub, a sauna and an outdoor shower, open 10:00 to 21:00. Paid at the pool, the ticket includes the gym, towels from reception.</span></li>
+        <li class="hl-row"><span class="hl-row__name">Golf</span><span class="hl-row__fact">at Laugar</span><span class="hl-row__text">A golf course at Laugar, paid separately.</span></li>
+        <li class="hl-row"><span class="hl-row__name">Horse riding</span><span class="hl-row__fact">nearby</span><span class="hl-row__text">Horseback riding nearby, paid separately. Ask at reception.</span></li>
+        <li class="hl-row"><span class="hl-row__name">Walks</span><span class="hl-row__fact">from the door</span><span class="hl-row__text">Along the Reykjadalsá river, and up the hill behind Fjall for the valley view.</span></li>
+      </ol>
     </div>
     <figure class="hl-fig r32 hl-c7 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/aerial-pool-1600.webp" srcset="/hotellaugar-preview/photos/aerial-pool-1000.webp 1000w, /hotellaugar-preview/photos/aerial-pool-1600.webp 1600w, /hotellaugar-preview/photos/aerial-pool-2400.webp 2400w" sizes="(min-width: 768px) 58vw, 100vw" width="3543" height="1990" alt="The outdoor pool and hot tubs at Laugar seen from the air, the hotel behind" loading="lazy"></figure>
   </div>
 </section>
 
-<section class="hl-sec hl-sec--tight" id="book">
-  <div class="hl-wrap hl-book">
-    <div class="hl-rise">
-      <h2 class="hl-h2"><span class="hl-mask"><span>Make Laugar</span></span> <span class="hl-mask"><span>your <em>base</em>.</span></span></h2>
-      <p style="margin-top: 16px; max-width: 30em">Two to four nights, one room, the whole circle. Book direct for our best available rate.</p>
+<!-- DAYS OUT: the partners, in the tour section (Astrid, 10 Oct) -->
+<section class="hl-sec hl-sec--tight" id="days-out">
+  <div class="hl-wrap">
+    <div class="hl-days">
+      <div class="hl-days__head hl-rise">
+        <h2 class="hl-h2"><span class="hl-mask"><span>Days out</span></span></h2>
+        <p>Tours and days out from Laugar, booked with the people who run them. Reception knows the operators and can help with the booking.</p>
+      </div>
+      <!-- TourDesk boxes land here once Laugar has its own TourDesk portal and widget key (the lodge’s pattern); until then the links -->
+      <div class="hl-day2">
+        <div><span class="hl-day2__name">Askja, the caldera</span><span class="hl-day2__by">Kip · private day tour</span></div>
+        <p class="hl-day2__text">A full day into the highlands with Kip, once the roads open, normally at the end of June. Kip runs private day tours across North Iceland from Laugar.</p>
+        <a class="hl-btn" href="https://kip.is/askja-the-caldera/" target="_blank" rel="noopener"><span class="hl-spin" data-hover="kip.is"><span>With Kip</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span><span class="sr"> (opens in a new tab)</span></a>
+      </div>
+      <div class="hl-day2">
+        <div><span class="hl-day2__name">Huskies at Vallholt</span><span class="hl-day2__by">Snow Dogs Iceland · about 17 km from the hotel</span></div>
+        <p class="hl-day2__text">Husky cart rides in summer and kennel visits with Snow Dogs Iceland at Vallholt farm, on the way to Mývatn.</p>
+        <a class="hl-btn" href="https://www.snowdogsiceland.is/" target="_blank" rel="noopener"><span class="hl-spin" data-hover="snowdogsiceland.is"><span>With Snow Dogs</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span><span class="sr"> (opens in a new tab)</span></a>
+      </div>
+      <div class="hl-day2">
+        <div><span class="hl-day2__name">Whales from Húsavík</span><span class="hl-day2__by">40 minutes north</span></div>
+        <p class="hl-day2__text">Whale watching tours leave the harbour several times a day through the summer. Ask at reception for the operators and the times.</p>
+        <a class="hl-btn" href="#husavik"><span class="hl-spin" data-hover="Húsavík"><span>About Húsavík</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
+      </div>
     </div>
-    <div class="hl-box">
-      <form novalidate>
-        <div class="hl-box__row">
-          <div class="hl-field"><label for="ci">Check-in</label><input id="ci" name="checkin" type="date" required autocomplete="off"></div>
-          <div class="hl-field"><label for="co">Check-out</label><input id="co" name="checkout" type="date" required autocomplete="off"></div>
-        </div>
-        <div class="hl-box__row">
-          <div class="hl-field"><label for="ad">Adults</label><select id="ad" name="adults"><option>1</option><option selected>2</option><option>3</option><option>4</option></select></div>
-          <div class="hl-field"><label for="ch">Children</label><select id="ch" name="children"><option selected>0</option><option>1</option><option>2</option></select></div>
-        </div>
-        <p class="hl-box__err" role="alert">Check-out has to be after check-in.</p>
-        <div class="hl-box__sum" aria-live="polite"></div>
-        <button class="hl-btn hl-btn--red hl-btn--wide" type="submit"><span class="hl-spin" data-hover="See rooms and rates"><span>See rooms and rates</span></span><svg class="hl-arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></button>
-        <p class="hl-box__fine">Opens the hotel’s own booking page. The 2027 season is 31 May to 22 August.</p>
-      </form>
+  </div>
+</section>
+
+<!-- BOOK DIRECT -->
+<section class="hl-sec hl-sec--tight">
+  <div class="hl-wrap">
+    <div class="hl-bookband">
+      <div class="hl-rise">
+        <h2 class="hl-h2"><span class="hl-mask"><span>Make Laugar</span></span> <span class="hl-mask"><span>your <em>base</em></span></span></h2>
+        <p>Two to four nights, one room, the whole circle. Book direct for our best available rate.</p>
+      </div>
+      <div class="hl-bookband__act">
+        <a class="hl-btn hl-btn--red" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
+      </div>
     </div>
   </div>
 </section>
 </main>
+
+<!-- More from Stella & Eyþór: the family’s sister cards, on every page above the footer -->
+<section class="hl-sec hl-sec--tight hl-sis" aria-labelledby="sis-h">
+  <div class="hl-wrap">
+    <div class="hl-sis__head hl-rise">
+      <h2 class="hl-h2" id="sis-h"><span class="hl-mask"><span>More from Stella &amp; Eyþór</span></span></h2>
+      <p class="hl-small">Their other places to stay in North Iceland.</p>
+    </div>
+    <div class="hl-sis__grid">
+      <a class="hl-sis__card" href="https://villanorth.is">
+        <figure class="hl-fig r45 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/sister-villanorth-1000.webp" srcset="/hotellaugar-preview/photos/sister-villanorth-1000.webp 1000w, /hotellaugar-preview/photos/sister-villanorth-1600.webp 1600w" sizes="(min-width: 768px) 50vw, 100vw" width="1600" height="2000" alt="Villa North: a dark timber villa with a glass gable in the Fnjóskadalur woods" loading="lazy" decoding="async"></figure>
+        <span class="hl-sis__url hl-mono">villanorth.is</span>
+        <span class="hl-sis__name">Villa North</span>
+        <p>A private villa with its own hot tub in Fnjóskadalur, twenty-five minutes from Akureyri. A second opens at Grenivík in summer 2027.</p>
+      </a>
+      <a class="hl-sis__card" href="https://akureyrilodge.is">
+        <figure class="hl-fig r45 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/sister-akureyrilodge-1000.webp" srcset="/hotellaugar-preview/photos/sister-akureyrilodge-1000.webp 1000w, /hotellaugar-preview/photos/sister-akureyrilodge-1600.webp 1600w" sizes="(min-width: 768px) 50vw, 100vw" width="1600" height="2000" alt="Akureyri Lodge: a slate-blue timber house from 1896 in Akureyri’s old town" loading="lazy" decoding="async"></figure>
+        <span class="hl-sis__url hl-mono">akureyrilodge.is</span>
+        <span class="hl-sis__name">Akureyri Lodge</span>
+        <p>Three apartments in a house from 1896 in Akureyri’s old town, with a hot tub in the garden. Open all year.</p>
+      </a>
+    </div>
+  </div>
+</section>
 
 <footer class="hl-foot" data-matte="/hotellaugar-preview/photos/hero-sky-matte.png">
   <!-- the page ends where it began: the same pond, the name rising from behind the trees -->
@@ -140,21 +215,61 @@
       <svg class="hl-foot__houses" viewBox="350 6 495 212" aria-hidden="true" focusable="false"><use class="roof" href="/hotellaugar-preview/brand/mark.svg#roofs"/><use class="wall-use" href="/hotellaugar-preview/brand/mark.svg#walls"/></svg>
       <p class="hl-foot__where">Austurhlíðarvegur, 650 Laugar<br>Reykjadalur, North Iceland</p>
       <p class="hl-foot__open">Open 31 May to 22 August 2027</p>
-      <a class="hl-btn hl-btn--light" href="/hotellaugar-preview/#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><svg class="hl-arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a>
+      <a class="hl-btn hl-btn--light" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
     </div>
     <div class="hl-foot__grid">
-      <div><b>Stay</b><a href="/hotellaugar-preview/rooms/">Rooms &amp; Stay</a><a href="/hotellaugar-preview/#grounds">The grounds</a><a href="/hotellaugar-preview/#book">Book direct</a></div>
-      <div><b>Eat</b><a href="/hotellaugar-preview/food/">Breakfast</a><a href="/hotellaugar-preview/food/#dinner">Dinner</a><a href="/hotellaugar-preview/food/#lounge">Lounge &amp; happy hour</a></div>
-      <div><b>Go</b><a href="/hotellaugar-preview/explore/">Explore North Iceland</a><a href="/hotellaugar-preview/explore/#godafoss">Goðafoss</a><a href="/hotellaugar-preview/explore/#myvatn">Mývatn</a></div>
-      <div><b>Contact</b><a href="tel:+3544664009">+354 466 4009</a><a href="https://wa.me/3548843259" rel="noopener" target="_blank">WhatsApp +354 884 3259</a><a href="mailto:hotellaugar@hotellaugar.is">hotellaugar@hotellaugar.is</a><a href="https://www.instagram.com/hotellaugar/" rel="noopener" target="_blank">Instagram</a><a href="/hotellaugar-preview/questions/">FAQ</a></div>
+      <div><b>Stay</b><a href="/hotellaugar-preview/rooms/">Rooms &amp; Stay</a><a href="/hotellaugar-preview/rooms/#houses">The three houses</a><a href="/hotellaugar-preview/gallery/">Gallery</a><a href="/hotellaugar-preview/book/">Book direct</a></div>
+      <div><b>Eat</b><a href="/hotellaugar-preview/food/">Food &amp; Drink</a><a href="/hotellaugar-preview/food/#breakfast">Breakfast</a><a href="/hotellaugar-preview/food/#dinner">Dinner</a><a href="/hotellaugar-preview/food/#lounge">Lounge &amp; happy hour</a></div>
+      <div><b>Go</b><a href="/hotellaugar-preview/explore/">Explore North Iceland</a><a href="/hotellaugar-preview/explore/#godafoss">Goðafoss</a><a href="/hotellaugar-preview/explore/#myvatn">Mývatn</a><a href="/hotellaugar-preview/explore/#days-out">Days out</a></div>
+      <div><b>Contact</b><a href="tel:+3544664009">+354 466 4009</a><a href="https://wa.me/3548843259" rel="noopener" target="_blank">WhatsApp +354 884 3259</a><a href="mailto:hotellaugar@hotellaugar.is">hotellaugar@hotellaugar.is</a><a href="https://www.instagram.com/hotellaugar/" rel="noopener" target="_blank">Instagram</a><a href="/hotellaugar-preview/questions/">FAQ</a><a href="/hotellaugar-preview/privacy/">Privacy</a></div>
     </div>
     <div class="hl-foot__bottom">
-      <span>Hótel Laugar ehf · Kt. 610616-0460 · Licence no. LG-REK-011367 · Austurhlíðarvegur, 650 Laugar</span>
-      <span>Run by Stella and Eyþór, who also host <a href="https://villanorth.is" rel="noopener">Villa North</a></span>
-      <a class="sndr" href="https://sndrstudio.is" rel="noopener">Vefur: SNDR</a>
+      <span>Hótel Laugar ehf · Kt. 610616-0460 · Licence no. LG-REK-011367 · Run by Stella &amp; Eyþór</span>
+      <a class="sndr" href="https://sndrstudio.is" target="_blank" rel="noopener" aria-label="Designed by SNDR Studio (opens in a new tab)"><span class="sndr__lead">Designed by</span> <span class="sndr__mark">SN<i>✦</i>DR</span> <span class="sndr__studio">Studio</span></a>
     </div>
   </div>
 </footer>
+
+<!-- the booking sheet: dates from a real calendar inside the season, nights and guests, then the hotel’s own GODO page -->
+<div class="bk" id="book" role="dialog" aria-modal="true" aria-labelledby="bk-h" inert data-open="2027-05-31" data-close="2027-08-22">
+  <div class="bk-bg" data-book-close></div>
+  <form class="bk-bar" novalidate>
+    <div class="bk-top">
+      <div><p class="hl-h3" id="bk-h" tabindex="-1">Book directly with Hotel Laugar</p>
+        <p class="bk-sub hl-small">Our best available rate, plus complimentary early check-in and late check-out when available.</p></div>
+      <button class="bk-x" type="button" data-book-close aria-label="Close booking sheet"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M8 8l16 16M24 8 8 24"/></svg></button>
+    </div>
+    <div class="bk-body" data-lenis-prevent>
+      <div class="bk-dates">
+        <div class="bk-when">
+          <p class="bk-l hl-mono" id="bk-cal-l">Dates · season 31 May to 22 August 2027</p>
+          <p class="bk-range"><span data-from>Arrival</span> <span class="bk-to">to</span> <span data-to>Departure</span></p>
+        </div>
+        <div class="bk-gst">
+          <div><p class="bk-l hl-mono" id="bk-g-l">Guests</p><p class="bk-gnote" aria-live="polite">Rooms are doubles or twins for one or two guests. A third guest takes an extra bed, on request.</p></div>
+          <div class="bk-step" role="group" aria-labelledby="bk-g-l">
+            <button class="bk-minus" type="button" aria-label="One guest fewer"><svg class="bk-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg></button>
+            <output class="bk-n" for="bk-guests">2 guests</output>
+            <button class="bk-plus" type="button" aria-label="One guest more"><svg class="bk-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12M12 6v12"/></svg></button>
+          </div>
+        </div>
+        <div class="bk-months" role="group" aria-labelledby="bk-cal-l"></div>
+      </div>
+      <ul class="bk-perks">
+        <li><b>Pay now, or keep it flexible</b><span>A non-refundable rate paid now, or a refundable rate secured with your card details, stored with 3D Secure. The terms are shown before you pay.</span></li>
+        <li><b>Breakfast is included</b><span>Every morning, 07:00 to 10:00.</span></li>
+      </ul>
+      <p class="bk-foot bk-foot--body">Booking is completed on the hotel’s own booking page; payment never passes through this site. Questions? <a href="mailto:hotellaugar@hotellaugar.is">hotellaugar@hotellaugar.is</a></p>
+    </div>
+    <div class="bk-end">
+      <p class="bk-sum" aria-live="polite"></p>
+      <button class="hl-btn hl-btn--red" type="submit"><span class="hl-spin" data-hover="See rooms and rates"><span>See rooms and rates</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></button>
+      <p class="bk-note" aria-live="polite"></p>
+      <p class="bk-foot bk-foot--bar">Booking is completed on the hotel’s own booking page; payment never passes through this site.</p>
+    </div>
+    <input type="hidden" id="bk-in" name="checkin"><input type="hidden" id="bk-out" name="checkout"><input type="hidden" id="bk-guests" name="guests" value="2">
+  </form>
+</div>
 
 </body>
 </html>

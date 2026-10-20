@@ -1,17 +1,31 @@
 <!doctype html>
 <html lang="en">
 <head>
+<script>(function () {
+  var root = document.documentElement;
+  function set(v) { if (root.getAttribute('data-input') !== v) root.setAttribute('data-input', v); }
+  addEventListener('pointerdown', function () { set('pointer'); }, true);
+  addEventListener('keydown', function (e) {
+    if (e.key === 'Shift' || e.key === 'Control' || e.key === 'Alt' || e.key === 'Meta') return;
+    set('key');
+  }, true);
+})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Food &amp; Drink | Hótel Laugar</title>
-<meta name="description" content="Breakfast buffet 07:00 to 10:00, dinner 18:00 to 21:00 with Arctic char and Icelandic lamb, lounge and bar from 16:00 with happy hour until 18:00, lunch packs on request. Outside guests welcome.">
+<meta name="description" content="Breakfast buffet 07:00 to 10:00 included, dinner 18:00 to 21:00 with Arctic char and Icelandic lamb, lounge and bar from 16:00 with happy hour until 18:00, a sun terrace over the valley, lunch packs on request. Outside guests welcome.">
 <link rel="canonical" href="https://hotellaugar.is/food/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Food &amp; Drink | Hótel Laugar">
+<meta property="og:description" content="Dinner without leaving the valley: Arctic char, Icelandic lamb, breakfast included, happy hour on the terrace.">
+<meta property="og:image" content="https://sindrimar02.github.io/hotellaugar-preview/photos/dinner-main-1400.webp">
 <meta name="theme-color" content="#F3F4F1">
 <script>(function(d){if(!matchMedia("(prefers-reduced-motion: reduce)").matches){d.classList.add("js");try{if(sessionStorage.getItem("hlTurn"))d.classList.add("pre")}catch(e){}}})(document.documentElement)</script>
 <link rel="icon" href="/hotellaugar-preview/favicon.svg" type="image/svg+xml">
-  <script type="module" crossorigin src="/hotellaugar-preview/assets/site-0R7HLGcx.js"></script>
-  <link rel="stylesheet" crossorigin href="/hotellaugar-preview/assets/site-ByU40F1j.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Restaurant","@id":"https://hotellaugar.is/food/#restaurant","name":"Hótel Laugar restaurant","url":"https://hotellaugar.is/food/","image":"https://hotellaugar.is/photos/dinner-main-1400.webp","servesCuisine":"Icelandic","telephone":"+354 466 4009","address":{"@type":"PostalAddress","streetAddress":"Austurhlíðarvegur","postalCode":"650","addressLocality":"Laugar","addressCountry":"IS"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"07:00","closes":"10:00","validFrom":"2027-05-31","validThrough":"2027-08-22"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"18:00","closes":"21:00","validFrom":"2027-05-31","validThrough":"2027-08-22"}],"parentOrganization":{"@id":"https://hotellaugar.is/#hotel"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Hótel Laugar","item":"https://hotellaugar.is/"},{"@type":"ListItem","position":2,"name":"Food & Drink","item":"https://hotellaugar.is/food/"}]}]}</script>
+  <script type="module" crossorigin src="/hotellaugar-preview/assets/site-CBO_R6HF.js"></script>
+  <link rel="stylesheet" crossorigin href="/hotellaugar-preview/assets/site-CkzyYoOk.css">
 </head>
 <body>
 <div class="hl-turn" aria-hidden="true"></div>
@@ -26,19 +40,24 @@
     <svg class="houses" viewBox="350 6 495 212" aria-hidden="true" focusable="false"><use class="roof" href="/hotellaugar-preview/brand/mark.svg#roofs"/><use class="wall-use" href="/hotellaugar-preview/brand/mark.svg#walls"/></svg>
     <span class="word">Hótel Laugar</span>
   </a>
-  <div class="hl-right"><a class="hl-btn hl-btn--head" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><svg class="hl-arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a></div>
+  <div class="hl-right">
+    <a class="hl-btn hl-btn--red hl-btn--head" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
+  </div>
 </header>
-<div class="hl-menu" id="menu">
-  <a class="big" href="/hotellaugar-preview/rooms/">Rooms &amp; Stay</a><a class="big" href="/hotellaugar-preview/food/">Food &amp; Drink</a><a class="big" href="/hotellaugar-preview/explore/">Explore North Iceland</a><a class="big" href="/hotellaugar-preview/questions/">FAQ</a>
-  <a class="hl-btn hl-btn--red" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><svg class="hl-arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a>
-  <p class="hl-small">Austurhlíðarvegur, 650 Laugar · <a href="tel:+3544664009">+354 466 4009</a></p>
+<div class="hl-menu" id="menu" tabindex="-1">
+  <nav aria-label="Menu">
+    <a class="big" href="/hotellaugar-preview/rooms/">Rooms &amp; Stay</a><a class="big" href="/hotellaugar-preview/food/">Food &amp; Drink</a><a class="big" href="/hotellaugar-preview/explore/">Explore North Iceland</a><a class="big" href="/hotellaugar-preview/gallery/">Gallery</a><a class="big" href="/hotellaugar-preview/questions/">FAQ</a>
+  </nav>
+  <div class="hl-menu__foot">
+    <a class="hl-btn hl-btn--red" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
+    <p class="hl-small">Open 31 May to 22 August 2027<br>Austurhlíðarvegur, 650 Laugar · <a href="tel:+3544664009">+354 466 4009</a></p>
+  </div>
 </div>
-
 
 
 <main id="main">
 <section class="hl-band" aria-label="Food &amp; Drink">
-  <div class="hl-hero__img"><img src="/hotellaugar-preview/photos/dinner-plate-1400.webp" srcset="/hotellaugar-preview/photos/dinner-plate-900.webp 900w, /hotellaugar-preview/photos/dinner-plate-1400.webp 1400w, /hotellaugar-preview/photos/dinner-plate-2000.webp 2000w" sizes="100vw" width="5896" height="3931" alt="A plated dinner at Hótel Laugar with vegetables and a red berry sauce" fetchpriority="high"></div>
+  <div class="hl-hero__img"><img src="/hotellaugar-preview/photos/dinner-main-1400.webp" srcset="/hotellaugar-preview/photos/dinner-main-900.webp 900w, /hotellaugar-preview/photos/dinner-main-1400.webp 1400w, /hotellaugar-preview/photos/dinner-main-2000.webp 2000w" sizes="100vw" width="5896" height="3931" alt="A plated dinner at Hótel Laugar with vegetables and a red berry sauce" fetchpriority="high"></div>
   <div class="hl-band__shade" aria-hidden="true"></div>
   <div class="hl-band__echo" aria-hidden="true">Food</div>
   <div class="hl-band__text">
@@ -47,10 +66,31 @@
   </div>
 </section>
 
+<!-- DINNER FIRST (dark) -->
+<section class="hl-sec hl-sec--dark" id="dinner">
+  <div class="hl-wrap hl-dinner">
+    <figure class="hl-fig r32 hl-reveal hl-dinner__big" data-drift><img src="/hotellaugar-preview/photos/dinner-tall-1400.webp" srcset="/hotellaugar-preview/photos/dinner-tall-900.webp 900w, /hotellaugar-preview/photos/dinner-tall-1400.webp 1400w" sizes="(min-width: 1024px) 58vw, 100vw" width="3931" height="5896" alt="The main course at Hótel Laugar, close: grilled fish on polenta with roast vegetables" loading="lazy" style="object-position: 50% 40%"></figure>
+    <div class="hl-dinner__copy hl-rise">
+      <span class="hl-mono" style="display:block; margin-bottom: 12px; color: var(--lake)">18:00 to 21:00</span>
+      <h2 class="hl-h2"><span class="hl-mask"><span>Dinner without</span></span> <span class="hl-mask"><span>leaving the <em>valley</em></span></span></h2>
+      <p>After a day exploring North Iceland, sometimes the best plan is to come home. Join us for dinner at Hotel Laugar, enjoy a drink in the lounge, or take your glass outside onto the sun terrace when the Icelandic weather is kind to us. Our kitchen focuses on fresh, local ingredients and Icelandic favourites, including dishes such as Arctic char and Icelandic lamb.</p>
+      <p class="hl-mono hl-dinner__line">Dinner · Lounge · Bar · Happy Hour · Sun Terrace</p>
+      <p style="margin-top: 16px">A reservation is recommended, and outside guests are welcome. The menu changes with what arrives; tell us about allergies when you book a table.</p>
+      <a class="hl-btn hl-btn--light" href="tel:+3544664009" style="margin-top: 22px"><span class="hl-spin" data-hover="+354 466 4009"><span>Reserve a table</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
+    </div>
+    <div class="hl-dinner__pair">
+      <figure class="hl-fig hl-reveal" data-drift><img src="/hotellaugar-preview/photos/char-900.webp" srcset="/hotellaugar-preview/photos/char-900.webp 900w, /hotellaugar-preview/photos/char-1400.webp 1400w" sizes="(min-width: 600px) 33vw, 50vw" width="1500" height="1000" alt="Arctic char on a white plate with a red sauce" loading="lazy"></figure>
+      <figure class="hl-fig hl-reveal" data-drift><img src="/hotellaugar-preview/photos/lamb-900.webp" srcset="/hotellaugar-preview/photos/lamb-900.webp 900w, /hotellaugar-preview/photos/lamb-1400.webp 1400w" sizes="(min-width: 600px) 33vw, 50vw" width="1500" height="1000" alt="Icelandic lamb with potatoes and vegetables" loading="lazy"></figure>
+      <figure class="hl-fig hl-reveal" data-drift><img src="/hotellaugar-preview/photos/restaurant-bright-900.webp" srcset="/hotellaugar-preview/photos/restaurant-bright-900.webp 900w, /hotellaugar-preview/photos/restaurant-bright-1400.webp 1400w" sizes="(min-width: 600px) 33vw, 100vw" width="5582" height="3721" alt="The dining room in daylight, tables laid with blue napkins and flowers" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- BREAKFAST -->
 <section class="hl-sec" id="breakfast">
   <div class="hl-wrap hl-meal">
     <div class="hl-meal__copy hl-rise">
-      <span class="hl-mono">07:00 to 10:00</span>
+      <span class="hl-mono">07:00 to 10:00 · included with every stay</span>
       <h2 class="hl-h2"><span class="hl-mask"><span>Start your Icelandic</span></span> <span class="hl-mask"><span>day <em>well</em></span></span></h2>
       <p>Breakfast is always included at Hotel Laugar. Our generous breakfast buffet gives you everything you need before heading out into North Iceland — whether you’re setting off early for the Diamond Circle, taking the road towards Mývatn or simply enjoying a slower morning in Reykjadalur.</p>
       <p>A buffet in the restaurant, open to outside guests too. Gluten free on request, and lunch packs on request to take on the road.</p>
@@ -71,58 +111,89 @@
       </ul>
     </div>
     <div class="hl-meal__pics">
-      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/breakfast-fruit-1000.webp" srcset="/hotellaugar-preview/photos/breakfast-fruit-1000.webp 1000w, /hotellaugar-preview/photos/breakfast-fruit-1600.webp 1600w" sizes="(min-width: 1024px) 28vw, 50vw" width="3398" height="2362" alt="Melon, berries and cereals on the breakfast buffet" loading="lazy"></figure>
-      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/coffee-cup-900.webp" srcset="/hotellaugar-preview/photos/coffee-cup-900.webp 900w, /hotellaugar-preview/photos/coffee-cup-1400.webp 1400w" sizes="(min-width: 1024px) 28vw, 50vw" width="2667" height="4000" alt="Coffee pouring into a cup with the Laugar mark" loading="lazy"></figure>
+      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/coffee-pour-900.webp" srcset="/hotellaugar-preview/photos/coffee-pour-900.webp 900w, /hotellaugar-preview/photos/coffee-pour-1400.webp 1400w" sizes="(min-width: 1024px) 28vw, 50vw" width="3398" height="5094" alt="Coffee pouring into a cup with the Laugar name on it" loading="lazy"></figure>
+      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/breakfast-fruit-1000.webp" srcset="/hotellaugar-preview/photos/breakfast-fruit-1000.webp 1000w, /hotellaugar-preview/photos/breakfast-fruit-1600.webp 1600w" sizes="(min-width: 1024px) 28vw, 50vw" width="3543" height="2362" alt="Melon, grapes and berries on the breakfast buffet" loading="lazy"></figure>
+      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/cold-cuts-900.webp" srcset="/hotellaugar-preview/photos/cold-cuts-900.webp 900w, /hotellaugar-preview/photos/cold-cuts-1400.webp 1400w" sizes="(min-width: 1024px) 28vw, 50vw" width="3543" height="2362" alt="Cheese, salami and ham on the breakfast buffet" loading="lazy"></figure>
+      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/tea-station-900.webp" srcset="/hotellaugar-preview/photos/tea-station-900.webp 900w, /hotellaugar-preview/photos/tea-station-1400.webp 1400w" sizes="(min-width: 1024px) 28vw, 50vw" width="3543" height="2362" alt="A wooden box of teas on the breakfast buffet" loading="lazy"></figure>
     </div>
   </div>
 </section>
 
-<section class="hl-sec hl-sec--dark" id="dinner">
+<!-- LOUNGE, BAR, TERRACE -->
+<section class="hl-sec hl-sec--tight" id="lounge">
   <div class="hl-wrap hl-meal hl-meal--flip">
-    <div class="hl-meal__copy hl-rise">
-      <span class="hl-mono">18:00 to 21:00</span>
-      <h2 class="hl-h2"><span class="hl-mask"><span>Dinner without</span></span> <span class="hl-mask"><span>leaving the <em>valley</em></span></span></h2>
-      <p>After a day exploring North Iceland, sometimes the best plan is to come home. Join us for dinner at Hotel Laugar, enjoy a drink in the lounge, or take your glass outside onto the sun terrace when the Icelandic weather is kind to us. Our kitchen focuses on fresh, local ingredients and Icelandic favourites, including dishes such as Arctic char and Icelandic lamb.</p>
-      <p class="hl-mono hl-meal__line">Dinner · Lounge · Bar · Happy Hour · Sun Terrace</p>
-      <p>A reservation is recommended, and outside guests are welcome.</p>
-      <ul class="hl-meal__list">
-        <li><span>Arctic char</span><span>local</span></li>
-        <li><span>Icelandic lamb</span><span>local</span></li>
-      </ul>
-      <p class="hl-small" style="margin-top: 18px">The menu changes with what arrives. Tell us about allergies when you book a table.</p>
-    </div>
-    <div class="hl-meal__pics">
-      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/char-900.webp" srcset="/hotellaugar-preview/photos/char-900.webp 900w, /hotellaugar-preview/photos/char-1400.webp 1400w" sizes="(min-width: 1024px) 28vw, 50vw" width="1500" height="1000" alt="Arctic char on a white plate with a red sauce" loading="lazy"></figure>
-      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/skyramisu-900.webp" srcset="/hotellaugar-preview/photos/skyramisu-900.webp 900w, /hotellaugar-preview/photos/skyramisu-1400.webp 1400w" sizes="(min-width: 1024px) 28vw, 50vw" width="1500" height="1000" alt="Skyramisu in a glass with a purple napkin" loading="lazy"></figure>
-    </div>
-  </div>
-</section>
-
-<section class="hl-sec" id="lounge">
-  <div class="hl-wrap hl-meal">
     <div class="hl-meal__copy hl-rise">
       <span class="hl-mono">Lounge and terrace open around the clock · drinks 16:00 to 22:00 · happy hour 16:00 to 18:00</span>
       <h2 class="hl-h2"><span class="hl-mask"><span>Lounge, bar</span></span> <span class="hl-mask"><span>and <em>terrace</em></span></span></h2>
-      <p>The lounge is open day and night for reading and games. Drinks are served from four in the afternoon, with happy hour until six. The sun terrace faces Reykjadalur, with the river audible below, and there is a sitting area at the edge of the pond.</p>
+      <p>Our cosy lounge is open 24/7 where people can sit, read, play games and from 4 pm onwards have drinks. Happy hour from 4 pm to 6 pm. We also have a lovely sun terrace facing the Reykjadalur, where you can see and hear the river flowing. We do have a lakeside area with sitting also there.</p>
+      <ul class="hl-meal__list">
+        <li><span>Lounge</span><span>day and night</span></li>
+        <li><span>Drinks</span><span>16:00 to 22:00</span></li>
+        <li><span>Happy hour</span><span>16:00 to 18:00</span></li>
+        <li><span>Sun terrace and the lakeside seats</span><span>whenever the weather is kind</span></li>
+        <li><span>Lunch packs</span><span>on request, at a cost; groups a day ahead</span></li>
+      </ul>
     </div>
     <div class="hl-meal__pics">
       <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/cake-stand-900.webp" srcset="/hotellaugar-preview/photos/cake-stand-900.webp 900w, /hotellaugar-preview/photos/cake-stand-1400.webp 1400w" sizes="(min-width: 1024px) 28vw, 50vw" width="2667" height="4000" alt="A berry cheesecake on a glass stand in the dining room" loading="lazy"></figure>
       <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/lakeside-chairs-900.webp" srcset="/hotellaugar-preview/photos/lakeside-chairs-900.webp 900w, /hotellaugar-preview/photos/lakeside-chairs-1400.webp 1400w" sizes="(min-width: 1024px) 28vw, 50vw" width="4096" height="6144" alt="Table and chairs on the deck at the edge of the pond" loading="lazy"></figure>
+      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/lounge-sofa-900.webp" srcset="/hotellaugar-preview/photos/lounge-sofa-900.webp 900w, /hotellaugar-preview/photos/lounge-sofa-1400.webp 1400w" sizes="(min-width: 1024px) 28vw, 50vw" width="3504" height="2336" alt="Sofas and armchairs in the lounge, paintings on the wall" loading="lazy"></figure>
+      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/lounge-pond-1000.webp" srcset="/hotellaugar-preview/photos/lounge-pond-1000.webp 1000w, /hotellaugar-preview/photos/lounge-pond-1600.webp 1600w" sizes="(min-width: 1024px) 28vw, 50vw" width="3504" height="2336" alt="A window with plants on the sill, the pond outside" loading="lazy"></figure>
     </div>
   </div>
 </section>
 
+<!-- NOT STAYING? -->
 <section class="hl-sec hl-sec--tight">
   <div class="hl-wrap hl-grid">
     <figure class="hl-fig r32 hl-c7 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/dining-room-1000.webp" srcset="/hotellaugar-preview/photos/dining-room-1000.webp 1000w, /hotellaugar-preview/photos/dining-room-1600.webp 1600w" sizes="(min-width: 768px) 58vw, 100vw" width="4000" height="2667" alt="The dining room set for dinner with flowers on the tables" loading="lazy"></figure>
     <div class="hl-c5 hl-rise">
       <h2 class="hl-h2"><span class="hl-mask"><span>Not staying?</span></span> <span class="hl-mask"><span>Come for <em>dinner</em>.</span></span></h2>
-      <p style="margin-top: 16px; max-width: 30em">Outside guests are welcome for breakfast and dinner. Call ahead for a table, especially in July.</p>
-      <p style="margin-top: 18px"><a class="hl-link" href="tel:+3544664009">+354 466 4009</a></p>
+      <p style="margin-top: 16px; max-width: 30em">We welcome external guests for breakfast and dinner. Call ahead for a table, especially in July.</p>
+      <p style="margin-top: 18px"><a class="hl-link" href="tel:+3544664009">+354 466 4009</a> · <a class="hl-link" href="mailto:hotellaugar@hotellaugar.is">hotellaugar@hotellaugar.is</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- BOOK DIRECT -->
+<section class="hl-sec hl-sec--tight">
+  <div class="hl-wrap">
+    <div class="hl-bookband">
+      <div class="hl-rise">
+        <h2 class="hl-h2"><span class="hl-mask"><span>Stay, and dinner</span></span> <span class="hl-mask"><span>is <em>downstairs</em>.</span></span></h2>
+        <p>Breakfast included, dinner from six, happy hour at four. Book direct for our best available rate.</p>
+      </div>
+      <div class="hl-bookband__act">
+        <a class="hl-btn hl-btn--red" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
+      </div>
     </div>
   </div>
 </section>
 </main>
+
+<!-- More from Stella & Eyþór: the family’s sister cards, on every page above the footer -->
+<section class="hl-sec hl-sec--tight hl-sis" aria-labelledby="sis-h">
+  <div class="hl-wrap">
+    <div class="hl-sis__head hl-rise">
+      <h2 class="hl-h2" id="sis-h"><span class="hl-mask"><span>More from Stella &amp; Eyþór</span></span></h2>
+      <p class="hl-small">Their other places to stay in North Iceland.</p>
+    </div>
+    <div class="hl-sis__grid">
+      <a class="hl-sis__card" href="https://villanorth.is">
+        <figure class="hl-fig r45 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/sister-villanorth-1000.webp" srcset="/hotellaugar-preview/photos/sister-villanorth-1000.webp 1000w, /hotellaugar-preview/photos/sister-villanorth-1600.webp 1600w" sizes="(min-width: 768px) 50vw, 100vw" width="1600" height="2000" alt="Villa North: a dark timber villa with a glass gable in the Fnjóskadalur woods" loading="lazy" decoding="async"></figure>
+        <span class="hl-sis__url hl-mono">villanorth.is</span>
+        <span class="hl-sis__name">Villa North</span>
+        <p>A private villa with its own hot tub in Fnjóskadalur, twenty-five minutes from Akureyri. A second opens at Grenivík in summer 2027.</p>
+      </a>
+      <a class="hl-sis__card" href="https://akureyrilodge.is">
+        <figure class="hl-fig r45 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/sister-akureyrilodge-1000.webp" srcset="/hotellaugar-preview/photos/sister-akureyrilodge-1000.webp 1000w, /hotellaugar-preview/photos/sister-akureyrilodge-1600.webp 1600w" sizes="(min-width: 768px) 50vw, 100vw" width="1600" height="2000" alt="Akureyri Lodge: a slate-blue timber house from 1896 in Akureyri’s old town" loading="lazy" decoding="async"></figure>
+        <span class="hl-sis__url hl-mono">akureyrilodge.is</span>
+        <span class="hl-sis__name">Akureyri Lodge</span>
+        <p>Three apartments in a house from 1896 in Akureyri’s old town, with a hot tub in the garden. Open all year.</p>
+      </a>
+    </div>
+  </div>
+</section>
 
 <footer class="hl-foot" data-matte="/hotellaugar-preview/photos/hero-sky-matte.png">
   <!-- the page ends where it began: the same pond, the name rising from behind the trees -->
@@ -136,21 +207,61 @@
       <svg class="hl-foot__houses" viewBox="350 6 495 212" aria-hidden="true" focusable="false"><use class="roof" href="/hotellaugar-preview/brand/mark.svg#roofs"/><use class="wall-use" href="/hotellaugar-preview/brand/mark.svg#walls"/></svg>
       <p class="hl-foot__where">Austurhlíðarvegur, 650 Laugar<br>Reykjadalur, North Iceland</p>
       <p class="hl-foot__open">Open 31 May to 22 August 2027</p>
-      <a class="hl-btn hl-btn--light" href="/hotellaugar-preview/#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><svg class="hl-arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></a>
+      <a class="hl-btn hl-btn--light" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
     </div>
     <div class="hl-foot__grid">
-      <div><b>Stay</b><a href="/hotellaugar-preview/rooms/">Rooms &amp; Stay</a><a href="/hotellaugar-preview/#grounds">The grounds</a><a href="/hotellaugar-preview/#book">Book direct</a></div>
-      <div><b>Eat</b><a href="/hotellaugar-preview/food/">Breakfast</a><a href="/hotellaugar-preview/food/#dinner">Dinner</a><a href="/hotellaugar-preview/food/#lounge">Lounge &amp; happy hour</a></div>
-      <div><b>Go</b><a href="/hotellaugar-preview/explore/">Explore North Iceland</a><a href="/hotellaugar-preview/explore/#godafoss">Goðafoss</a><a href="/hotellaugar-preview/explore/#myvatn">Mývatn</a></div>
-      <div><b>Contact</b><a href="tel:+3544664009">+354 466 4009</a><a href="https://wa.me/3548843259" rel="noopener" target="_blank">WhatsApp +354 884 3259</a><a href="mailto:hotellaugar@hotellaugar.is">hotellaugar@hotellaugar.is</a><a href="https://www.instagram.com/hotellaugar/" rel="noopener" target="_blank">Instagram</a><a href="/hotellaugar-preview/questions/">FAQ</a></div>
+      <div><b>Stay</b><a href="/hotellaugar-preview/rooms/">Rooms &amp; Stay</a><a href="/hotellaugar-preview/rooms/#houses">The three houses</a><a href="/hotellaugar-preview/gallery/">Gallery</a><a href="/hotellaugar-preview/book/">Book direct</a></div>
+      <div><b>Eat</b><a href="/hotellaugar-preview/food/">Food &amp; Drink</a><a href="/hotellaugar-preview/food/#breakfast">Breakfast</a><a href="/hotellaugar-preview/food/#dinner">Dinner</a><a href="/hotellaugar-preview/food/#lounge">Lounge &amp; happy hour</a></div>
+      <div><b>Go</b><a href="/hotellaugar-preview/explore/">Explore North Iceland</a><a href="/hotellaugar-preview/explore/#godafoss">Goðafoss</a><a href="/hotellaugar-preview/explore/#myvatn">Mývatn</a><a href="/hotellaugar-preview/explore/#days-out">Days out</a></div>
+      <div><b>Contact</b><a href="tel:+3544664009">+354 466 4009</a><a href="https://wa.me/3548843259" rel="noopener" target="_blank">WhatsApp +354 884 3259</a><a href="mailto:hotellaugar@hotellaugar.is">hotellaugar@hotellaugar.is</a><a href="https://www.instagram.com/hotellaugar/" rel="noopener" target="_blank">Instagram</a><a href="/hotellaugar-preview/questions/">FAQ</a><a href="/hotellaugar-preview/privacy/">Privacy</a></div>
     </div>
     <div class="hl-foot__bottom">
-      <span>Hótel Laugar ehf · Kt. 610616-0460 · Licence no. LG-REK-011367 · Austurhlíðarvegur, 650 Laugar</span>
-      <span>Run by Stella and Eyþór, who also host <a href="https://villanorth.is" rel="noopener">Villa North</a></span>
-      <a class="sndr" href="https://sndrstudio.is" rel="noopener">Vefur: SNDR</a>
+      <span>Hótel Laugar ehf · Kt. 610616-0460 · Licence no. LG-REK-011367 · Run by Stella &amp; Eyþór</span>
+      <a class="sndr" href="https://sndrstudio.is" target="_blank" rel="noopener" aria-label="Designed by SNDR Studio (opens in a new tab)"><span class="sndr__lead">Designed by</span> <span class="sndr__mark">SN<i>✦</i>DR</span> <span class="sndr__studio">Studio</span></a>
     </div>
   </div>
 </footer>
+
+<!-- the booking sheet: dates from a real calendar inside the season, nights and guests, then the hotel’s own GODO page -->
+<div class="bk" id="book" role="dialog" aria-modal="true" aria-labelledby="bk-h" inert data-open="2027-05-31" data-close="2027-08-22">
+  <div class="bk-bg" data-book-close></div>
+  <form class="bk-bar" novalidate>
+    <div class="bk-top">
+      <div><p class="hl-h3" id="bk-h" tabindex="-1">Book directly with Hotel Laugar</p>
+        <p class="bk-sub hl-small">Our best available rate, plus complimentary early check-in and late check-out when available.</p></div>
+      <button class="bk-x" type="button" data-book-close aria-label="Close booking sheet"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M8 8l16 16M24 8 8 24"/></svg></button>
+    </div>
+    <div class="bk-body" data-lenis-prevent>
+      <div class="bk-dates">
+        <div class="bk-when">
+          <p class="bk-l hl-mono" id="bk-cal-l">Dates · season 31 May to 22 August 2027</p>
+          <p class="bk-range"><span data-from>Arrival</span> <span class="bk-to">to</span> <span data-to>Departure</span></p>
+        </div>
+        <div class="bk-gst">
+          <div><p class="bk-l hl-mono" id="bk-g-l">Guests</p><p class="bk-gnote" aria-live="polite">Rooms are doubles or twins for one or two guests. A third guest takes an extra bed, on request.</p></div>
+          <div class="bk-step" role="group" aria-labelledby="bk-g-l">
+            <button class="bk-minus" type="button" aria-label="One guest fewer"><svg class="bk-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg></button>
+            <output class="bk-n" for="bk-guests">2 guests</output>
+            <button class="bk-plus" type="button" aria-label="One guest more"><svg class="bk-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12M12 6v12"/></svg></button>
+          </div>
+        </div>
+        <div class="bk-months" role="group" aria-labelledby="bk-cal-l"></div>
+      </div>
+      <ul class="bk-perks">
+        <li><b>Pay now, or keep it flexible</b><span>A non-refundable rate paid now, or a refundable rate secured with your card details, stored with 3D Secure. The terms are shown before you pay.</span></li>
+        <li><b>Breakfast is included</b><span>Every morning, 07:00 to 10:00.</span></li>
+      </ul>
+      <p class="bk-foot bk-foot--body">Booking is completed on the hotel’s own booking page; payment never passes through this site. Questions? <a href="mailto:hotellaugar@hotellaugar.is">hotellaugar@hotellaugar.is</a></p>
+    </div>
+    <div class="bk-end">
+      <p class="bk-sum" aria-live="polite"></p>
+      <button class="hl-btn hl-btn--red" type="submit"><span class="hl-spin" data-hover="See rooms and rates"><span>See rooms and rates</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></button>
+      <p class="bk-note" aria-live="polite"></p>
+      <p class="bk-foot bk-foot--bar">Booking is completed on the hotel’s own booking page; payment never passes through this site.</p>
+    </div>
+    <input type="hidden" id="bk-in" name="checkin"><input type="hidden" id="bk-out" name="checkout"><input type="hidden" id="bk-guests" name="guests" value="2">
+  </form>
+</div>
 
 </body>
 </html>
