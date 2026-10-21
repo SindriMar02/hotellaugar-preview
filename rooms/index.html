@@ -24,8 +24,8 @@
 <script>(function(d){if(!matchMedia("(prefers-reduced-motion: reduce)").matches){d.classList.add("js");try{if(sessionStorage.getItem("hlTurn"))d.classList.add("pre")}catch(e){}}})(document.documentElement)</script>
 <link rel="icon" href="/hotellaugar-preview/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Hótel Laugar","item":"https://hotellaugar.is/"},{"@type":"ListItem","position":2,"name":"Rooms & Stay","item":"https://hotellaugar.is/rooms/"}]}</script>
-  <script type="module" crossorigin src="/hotellaugar-preview/assets/site-B6_IFrYd.js"></script>
-  <link rel="stylesheet" crossorigin href="/hotellaugar-preview/assets/site-DOc0X9aV.css">
+  <script type="module" crossorigin src="/hotellaugar-preview/assets/site-CN4rWTt2.js"></script>
+  <link rel="stylesheet" crossorigin href="/hotellaugar-preview/assets/site-BBHXDjhO.css">
 </head>
 <body>
 <div class="hl-turn" aria-hidden="true"></div>
@@ -66,133 +66,98 @@
   </div>
 </section>
 
-<!-- THE ROOM, PLAINLY -->
-<section class="hl-sec" id="room">
-  <div class="hl-wrap hl-grid">
-    <div class="hl-c5 hl-rise">
-      <h2 class="hl-h2"><span class="hl-mask"><span>In every room</span></span></h2>
-      <p style="margin-top: 16px; max-width: 32em">The rooms are plain, clean and warm. A double bed that splits into twins on request, an extra bed for a third guest at extra cost, baby cribs on request, and any room can be booked for one guest. There are no TVs: for most of the year the houses are a school.</p>
-      <ul class="hl-room-facts" style="margin-top: 24px">
-        <li>Private bathroom</li><li>Linen, towels and a bathmat</li><li>Hairdryer</li><li>Soap, shampoo and body wash</li><li>Kettle with coffee and tea</li><li>Adjustable heating</li><li>Free wifi</li><li>Additional towels for the pool, on request</li>
-      </ul>
-    </div>
-    <div class="hl-c7" style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--pad); align-items: start">
-      <figure class="hl-fig r23 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/room-bed-900.webp" srcset="/hotellaugar-preview/photos/room-bed-900.webp 900w, /hotellaugar-preview/photos/room-bed-1400.webp 1400w" sizes="(min-width: 768px) 28vw, 50vw" width="3851" height="5776" alt="A made bed with folded towels and a lit bedside lamp" loading="lazy"></figure>
-      <figure class="hl-fig r23 hl-reveal" data-drift style="margin-top: clamp(32px, 6vw, 96px)"><img src="/hotellaugar-preview/photos/room-detail-900.webp" srcset="/hotellaugar-preview/photos/room-detail-900.webp 900w, /hotellaugar-preview/photos/room-detail-1400.webp 1400w" sizes="(min-width: 768px) 28vw, 50vw" width="4000" height="6000" alt="A room detail: lamp, flowers and the folded towel on the bed" loading="lazy"></figure>
-    </div>
-  </div>
-</section>
-
-<!-- WHO SLEEPS WHERE -->
-<section class="hl-sec hl-sec--tight" id="who">
-  <div class="hl-wrap hl-grid">
-    <figure class="hl-fig r32 hl-c7 hl-reveal" data-drift><img src="/hotellaugar-preview/photos/room-twin-1400.webp" srcset="/hotellaugar-preview/photos/room-twin-900.webp 900w, /hotellaugar-preview/photos/room-twin-1400.webp 1400w, /hotellaugar-preview/photos/room-twin-2000.webp 2000w" sizes="(min-width: 768px) 58vw, 100vw" width="5776" height="3851" alt="A twin room with two beds made up with white linen, a window to the grounds" loading="lazy"></figure>
-    <div class="hl-c5 hl-rise">
-      <h2 class="hl-h2"><span class="hl-mask"><span>Who sleeps</span></span> <span class="hl-mask"><span><em>where</em></span></span></h2>
-      <ol class="hl-dist" style="margin-top: 20px">
-        <li class="hl-row"><span class="hl-row__name">Two</span><span class="hl-row__fact">double or twin</span><span class="hl-row__text">Every room: a double bed, or two singles on request.</span></li>
-        <li class="hl-row"><span class="hl-row__name">One</span><span class="hl-row__fact">any room</span><span class="hl-row__text">Any room can be booked for one guest.</span></li>
-        <li class="hl-row"><span class="hl-row__name">Three</span><span class="hl-row__fact">extra bed, or the triple</span><span class="hl-row__text">An extra bed for a third guest at extra cost, or the one natural triple in Fjall.</span></li>
-        <li class="hl-row"><span class="hl-row__name">With a baby</span><span class="hl-row__fact">crib on request</span><span class="hl-row__text">Baby cribs on request.</span></li>
-        <li class="hl-row"><span class="hl-row__name">Wheelchair</span><span class="hl-row__fact">2 rooms, Tröllasteinn</span><span class="hl-row__text">Lift, direct access from the car park, step-free path to the restaurant. Tell us in advance.</span></li>
+<!-- THE ROOM: one photograph, who sleeps where, what is in it (Codex audit 4.1.1) -->
+<section class="hl-sec hl-sec--tight" id="room">
+  <div class="hl-wrap hl-rm">
+    <figure class="hl-fig r32 hl-reveal hl-rm__fig" data-drift><img src="/hotellaugar-preview/photos/room-twin-1400.webp" srcset="/hotellaugar-preview/photos/room-twin-900.webp 900w, /hotellaugar-preview/photos/room-twin-1400.webp 1400w, /hotellaugar-preview/photos/room-twin-2000.webp 2000w" sizes="(min-width: 1024px) 56vw, 100vw" width="5776" height="3851" alt="A twin room with two beds made up with white linen, a window to the grounds" loading="lazy"><figcaption class="hl-cap">Every double can be made up as a twin</figcaption></figure>
+    <div class="hl-rm__copy">
+      <div class="hl-rise"><h2 class="hl-h2"><span class="hl-mask"><span>The room,</span></span> <span class="hl-mask"><span><em>plainly</em></span></span></h2></div>
+      <p>Plain, clean and warm. A double bed that splits into twins on request, and any room can be booked for one guest. There are no TVs: for most of the year the houses are a school.</p>
+      <ol class="hl-who" aria-label="Who sleeps where">
+        <li><b>One or two</b><span>Every room, double or twin.</span></li>
+        <li><b>Three</b><span>An extra bed at extra cost, or the one natural triple in Fjall.</span></li>
+        <li><b>With a baby</b><span>Baby cribs on request.</span></li>
       </ol>
+      <p class="hl-rm__access"><b>Wheelchair accessible:</b> two rooms in Tröllasteinn, with a lift, direct access from the car park and a step-free path to the restaurant. Tell us in advance.</p>
+      <details class="hl-rm__in"><summary>In the room<span class="pl" aria-hidden="true"></span></summary>
+        <ul class="hl-room-facts"><li>Private bathroom</li><li>Linen, towels and a bathmat</li><li>Hairdryer</li><li>Soap, shampoo and body wash</li><li>Kettle with coffee and tea</li><li>Adjustable heating</li><li>Free wifi</li><li>Towels for the pool, on request</li></ul>
+      </details>
     </div>
   </div>
 </section>
 
-<!-- THE THREE HOUSES -->
-<section class="hl-sec" id="houses">
+<!-- THE THREE HOUSES: the hotel's own map beside the story, then three houses to compare (Codex audit 4.1.2) -->
+<section class="hl-sec hl-sec--tight hl-sec--wash2" id="houses">
   <div class="hl-wrap">
-    <div class="hl-grounds__head">
-      <div class="hl-rise"><h2 class="hl-h2"><span class="hl-mask"><span>Three houses, named for</span></span> <span class="hl-mask"><span>the <em>hidden folk</em></span></span></h2></div>
-      <p>Trolls, elves and a ghost: the guest houses carry the names of stones in the valley. Fjall is really Draugasteinn, the ghost stone, but nobody wanted to frighten the guests. Check in at the main building by the pond, then drive or walk to your house.</p>
+    <div class="hl-hs">
+      <figure class="hl-grounds__map hl-reveal hl-hs__map">
+        <img src="/hotellaugar-preview/photos/campus-map-1190.webp" width="1190" height="839" alt="The grounds from the air: reception and restaurant by the pond, Tröllasteinn behind it, Álfasteinn by the sports hall, Fjall on the hill" loading="lazy" decoding="async">
+      </figure>
+      <div class="hl-hs__copy">
+        <div class="hl-rise"><h2 class="hl-h2"><span class="hl-mask"><span>Three houses,</span></span> <span class="hl-mask"><span>named for the <em>hidden folk</em></span></span></h2></div>
+        <p>Trolls, elves and a ghost: the guest houses carry the names of stones in the valley. Fjall is really Draugasteinn, the ghost stone, but nobody wanted to frighten the guests.</p>
+        <p class="hl-hs__how">Check in at the main building by the pond, then drive or walk to your house. The hotel assigns the rooms; tell us which house you prefer when you book.</p>
+      </div>
     </div>
-    <figure class="hl-grounds__map hl-reveal">
-      <img src="/hotellaugar-preview/photos/campus-map-1190.webp" width="1190" height="839" alt="The grounds from the air: reception and restaurant by the pond, Tröllasteinn behind it, Álfasteinn by the sports hall, Fjall on the hill" loading="lazy" decoding="async">
-    </figure>
-    <div class="hl-grounds__cap"><span>Reception and restaurant are in the main building by the pond; there are no rooms there.</span><span class="hl-mono">Tröllasteinn 301 to 335 · Álfasteinn 401 to 407 · Fjall 101 to 115</span></div>
-    <div class="hl-houses3">
-      <article class="hl-house3">
-        <figure class="hl-fig hl-reveal" data-drift><img src="/hotellaugar-preview/photos/houses-valley-1400.webp" srcset="/hotellaugar-preview/photos/houses-valley-900.webp 900w, /hotellaugar-preview/photos/houses-valley-1400.webp 1400w, /hotellaugar-preview/photos/houses-valley-1920.webp 1920w" sizes="(min-width: 1024px) 33vw, (min-width: 600px) 50vw, 100vw" width="1920" height="1280" alt="The long white house with the red roof, Tröllasteinn, from across the fields" loading="lazy"></figure>
-        <div><h3 class="hl-house3__name">Tröllasteinn</h3><span class="hl-house3__rooms">35 rooms · rooms 301 to 335</span><p class="hl-house3__text">The main guest house, straight from the car park, with a lift to every floor. Two wheelchair accessible rooms, and a step-free path outdoors to the restaurant.</p></div>
-        <ul class="hl-house3__facts"><li><span>Ground floor</span><span>7 rooms, facing the car park</span></li><li><span>First and second floor</span><span>14 rooms each</span></li><li><span>Lift</span><span>yes</span></li><li><span>Wheelchair accessible</span><span>2 rooms</span></li></ul>
+    <div class="hl-hs__cols">
+      <article class="hl-hs__house">
+        <h3>Tröllasteinn</h3><p class="hl-hs__rooms">35 rooms · 301 to 335</p>
+        <p>The main guest house, straight from the car park. Two wheelchair accessible rooms and a step-free path outdoors to the restaurant.</p>
+        <p class="hl-hs__key">Lift to every floor</p>
+        <details><summary>House details<span class="pl" aria-hidden="true"></span></summary><ul><li><span>Ground floor</span><span>7 rooms, facing the car park</span></li><li><span>First and second floor</span><span>14 rooms each</span></li><li><span>Wheelchair accessible</span><span>2 rooms</span></li></ul></details>
       </article>
-      <article class="hl-house3">
-        <figure class="hl-fig hl-reveal" data-drift><img src="/hotellaugar-preview/photos/houses-hill-1280.webp" srcset="/hotellaugar-preview/photos/houses-hill-900.webp 900w, /hotellaugar-preview/photos/houses-hill-1280.webp 1280w" sizes="(min-width: 1024px) 33vw, (min-width: 600px) 50vw, 100vw" width="1280" height="1920" alt="The white houses with red roofs under the green hillside, the road curving past" loading="lazy" style="object-position: 50% 60%"></figure>
-        <div><h3 class="hl-house3__name">Álfasteinn</h3><span class="hl-house3__rooms">7 rooms · rooms 401 to 407</span><p class="hl-house3__text">A short drive round the swimming pool, with its own parking, and seven rooms on the first floor. A minute’s walk by path to reception and dinner.</p></div>
-        <ul class="hl-house3__facts"><li><span>First floor</span><span>7 rooms</span></li><li><span>Lift</span><span>no, stairs</span></li><li><span>Own parking</span><span>yes</span></li><li><span>Porter</span><span>free, on request</span></li></ul>
+      <article class="hl-hs__house">
+        <h3>Álfasteinn</h3><p class="hl-hs__rooms">7 rooms · 401 to 407</p>
+        <p>A short drive round the swimming pool, with its own parking. A minute’s walk by path to reception and dinner.</p>
+        <p class="hl-hs__key">First floor, by stairs</p>
+        <details><summary>House details<span class="pl" aria-hidden="true"></span></summary><ul><li><span>First floor</span><span>7 rooms</span></li><li><span>Own parking</span><span>yes</span></li><li><span>Porter</span><span>free, on request</span></li></ul></details>
       </article>
-      <article class="hl-house3">
-        <figure class="hl-fig hl-reveal" data-drift><img src="/hotellaugar-preview/photos/lounge-pond-1000.webp" srcset="/hotellaugar-preview/photos/lounge-pond-1000.webp 1000w, /hotellaugar-preview/photos/lounge-pond-1600.webp 1600w" sizes="(min-width: 1024px) 33vw, (min-width: 600px) 50vw, 100vw" width="3504" height="2336" alt="A window with plants on the sill, the pond and the valley outside" loading="lazy"></figure>
-        <div><h3 class="hl-house3__name">Fjall</h3><span class="hl-house3__rooms">15 rooms · rooms 101 to 115</span><p class="hl-house3__text">A short drive up the hill and the best view on the property, with a guest lounge over the valley. The ground floor sits partly in the hillside and the triple room is here. Floors renovated this year.</p></div>
-        <ul class="hl-house3__facts"><li><span>First floor</span><span>3 rooms and the guest lounge</span></li><li><span>Ground floor</span><span>7 rooms, incl. the triple</span></li><li><span>Second floor</span><span>5 rooms, two staircases</span></li><li><span>Porter</span><span>free, on request</span></li></ul>
+      <article class="hl-hs__house">
+        <h3>Fjall</h3><p class="hl-hs__rooms">15 rooms · 101 to 115</p>
+        <p>A short drive up the hill and the best view on the property, with a guest lounge over the valley. The triple room is here. Floors renovated this year.</p>
+        <p class="hl-hs__key">Stairs, two staircases</p>
+        <details><summary>House details<span class="pl" aria-hidden="true"></span></summary><ul><li><span>Ground floor</span><span>7 rooms, incl. the triple</span></li><li><span>First floor</span><span>3 rooms and the guest lounge</span></li><li><span>Second floor</span><span>5 rooms</span></li><li><span>Porter</span><span>free, on request</span></li></ul></details>
       </article>
     </div>
   </div>
 </section>
 
-<!-- INCLUDED + GOOD TO KNOW -->
+<!-- GOOD TO KNOW + BOOK: one practical finish (Codex audit 4.1.3) -->
 <section class="hl-sec hl-sec--tight">
-  <div class="hl-wrap hl-grid">
-    <div class="hl-c6 hl-rise">
-      <h2 class="hl-h2"><span class="hl-mask"><span>Good to know</span></span></h2>
-      <div class="hl-q" style="margin-top: 20px">
+  <div class="hl-wrap hl-fin">
+    <div class="hl-fin__q">
+      <h2 class="hl-help__h">Good to know</h2>
+      <div class="hl-q" style="margin-top: 14px">
         <details><summary>Check-in and check-out<span class="pl" aria-hidden="true"></span></summary><div class="ans"><p>Check-in from 16:00 to 22:00, check-out by 11:00. Reception is open 07:00 to 12:00 and 16:00 to 22:00. Arriving after 22:00? Call us that day and we tell you how to check in late. Early check-in or late check-out when a room is free, for guests who book direct.</p></div></details>
         <details><summary>Laundry<span class="pl" aria-hidden="true"></span></summary><div class="ans"><p>Laundry service at a cost. For a one night stay we can wash what goes in the dryer. From two nights, clothes can also air dry.</p></div></details>
         <details><summary>Wifi<span class="pl" aria-hidden="true"></span></summary><div class="ans"><p>Free in all buildings. The signal can drop while you walk between the houses.</p></div></details>
         <details><summary>Drinking water<span class="pl" aria-hidden="true"></span></summary><div class="ans"><p>Tap water in Iceland is clean and free, straight from underground springs. Drink it from the tap.</p></div></details>
-        <details><summary>Stairs and accessibility<span class="pl" aria-hidden="true"></span></summary><div class="ans"><p>Tröllasteinn has a lift and two wheelchair accessible rooms. Álfasteinn and Fjall are reached by stairs. If you cannot climb stairs, please let us know in advance, as not every room is reached by a lift.</p></div></details>
         <details><summary>Families<span class="pl" aria-hidden="true"></span></summary><div class="ans"><p>Extra beds for a third guest on request, at extra cost, and baby cribs on request. One natural triple room in Fjall. The children’s pool is next door at Sundlaugin Laugum.</p></div></details>
+        <details><summary>The swimming pool<span class="pl" aria-hidden="true"></span></summary><div class="ans"><p>The village pool is a minute’s walk. Towels are complimentary from reception; admission is paid at the pool.</p></div></details>
       </div>
     </div>
-    <div class="hl-c6">
-      <h2 class="hl-h3" style="margin-bottom: 10px">Included with every stay</h2>
-      <ul class="hl-perks">
-        <li><b>Breakfast</b><span>Rich Icelandic-style breakfast buffet every morning.</span></li>
-        <li><b>Wi-Fi</b><span>Free high-speed Wi-Fi throughout the hotel.</span></li>
-        <li><b>Parking</b><span>Free on-site parking.</span></li>
-        <li><b>Swimming</b><span>The local geothermal swimming pool is just a short walk away. Hotel guests can request complimentary towels from reception; pool admission is paid separately.</span></li>
-        <li><b>Restaurant</b><span>Dinner, drinks and a relaxed lounge atmosphere right here at Hotel Laugar.</span></li>
-        <li><b>Early check-in / late check-out for direct bookings</b><span>Complimentary, when available.</span></li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- BOOK DIRECT -->
-<section class="hl-sec hl-sec--tight">
-  <div class="hl-wrap">
-    <div class="hl-bookband">
-      <div class="hl-rise">
-        <h2 class="hl-h2"><span class="hl-mask"><span>Book directly with</span></span> <span class="hl-mask"><span><em>Hotel Laugar</em></span></span></h2>
-        <p>Enjoy our best available rate, plus complimentary early check-in and late check-out when available.</p>
-      </div>
-      <div class="hl-bookband__act">
-        <a class="hl-btn hl-btn--red" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
-        <p class="hl-small">Rooms are assigned by the hotel; tell us which house you prefer when you book.</p>
-      </div>
-    </div>
+    <aside class="hl-fin__book">
+      <h2 class="hl-cta__h">Book directly with <em>Hotel Laugar</em></h2>
+      <p>Our best available rate, plus complimentary early check-in and late check-out when available.</p>
+      <p class="hl-fin__incl">Breakfast, Wi-Fi and parking included.</p>
+      <a class="hl-btn hl-btn--red" href="#book" data-book><span class="hl-spin" data-hover="Book direct"><span>Book direct</span></span><span class="hl-btn__arr" aria-hidden="true"><svg class="hl-arr" viewBox="0 0 24 24"><path d="M5 12h14m0 0-5-5m5 5-5 5"/></svg></span></a>
+    </aside>
   </div>
 </section>
 </main>
 
-<!-- More from Stella & Eyþór: the family’s sister cards, on every page above the footer -->
-<section class="hl-sec hl-sec--tight hl-sis" aria-labelledby="sis-h">
+<!-- More from Stella & Eyþór: a quiet family link above the footer, smaller than Laugar's own rooms (Codex audit 2.14) -->
+<section class="hl-sis2" aria-labelledby="sis-h">
   <div class="hl-wrap">
-    <div class="hl-sis__head hl-rise">
-      <h2 class="hl-h2" id="sis-h"><span class="hl-mask"><span>More from Stella &amp; Eyþór</span></span></h2>
-      <p class="hl-small">Their other places to stay in North Iceland.</p>
-    </div>
-    <div class="hl-sis__rows">
-      <a class="hl-row hl-sis__row" href="https://villanorth.is">
-        <span class="hl-sis__name">Villa North<small>Private villa · Fnjóskadalur</small></span>
-        <figure class="hl-fig hl-sis__fig"><img src="/hotellaugar-preview/photos/sister-villanorth-1000.webp" srcset="/hotellaugar-preview/photos/sister-villanorth-1000.webp 1000w, /hotellaugar-preview/photos/sister-villanorth-1600.webp 1600w" sizes="(min-width: 1024px) 33vw, 100vw" width="1600" height="1069" alt="Villa North: a dark timber villa with a glass gable in the Fnjóskadalur woods" loading="lazy" decoding="async"></figure>
-        <span class="hl-sis__text"><span>A private villa with its own hot tub, twenty-five minutes from Akureyri. A second opens at Grenivík in summer 2027.</span><span class="hl-sis__url hl-mono">villanorth.is</span></span>
+    <div class="hl-sis2__head"><h2 class="hl-sis2__h" id="sis-h">More from Stella &amp; Eyþór</h2><p class="hl-small">Their other places to stay in North Iceland.</p></div>
+    <div class="hl-sis2__grid">
+      <a class="hl-sis2__card" href="https://villanorth.is">
+        <span class="hl-sis2__img"><img src="/hotellaugar-preview/photos/sister-villanorth-1000.webp" width="1600" height="1069" alt="Villa North: a dark timber villa with a glass gable in the Fnjóskadalur woods" loading="lazy" decoding="async"></span>
+        <span class="hl-sis2__txt"><b>Villa North</b><span>A private villa with its own hot tub in Fnjóskadalur, twenty-five minutes from Akureyri.</span><small>villanorth.is</small></span>
       </a>
-      <a class="hl-row hl-sis__row" href="https://akureyrilodge.is">
-        <span class="hl-sis__name">Akureyri Lodge<small>Three apartments · Akureyri</small></span>
-        <figure class="hl-fig hl-sis__fig"><img src="/hotellaugar-preview/photos/sister-akureyrilodge-1000.webp" srcset="/hotellaugar-preview/photos/sister-akureyrilodge-1000.webp 1000w, /hotellaugar-preview/photos/sister-akureyrilodge-1600.webp 1600w" sizes="(min-width: 1024px) 33vw, 100vw" width="1600" height="1067" alt="Akureyri Lodge: a slate-blue timber house from 1896 in Akureyri’s old town" loading="lazy" decoding="async"></figure>
-        <span class="hl-sis__text"><span>Three apartments in a house from 1896 in Akureyri’s old town, with a hot tub in the garden. Open all year.</span><span class="hl-sis__url hl-mono">akureyrilodge.is</span></span>
+      <a class="hl-sis2__card" href="https://akureyrilodge.is">
+        <span class="hl-sis2__img"><img src="/hotellaugar-preview/photos/sister-akureyrilodge-1000.webp" width="1600" height="1067" alt="Akureyri Lodge: a slate-blue timber house from 1896 in Akureyri’s old town" loading="lazy" decoding="async"></span>
+        <span class="hl-sis2__txt"><b>Akureyri Lodge</b><span>Three apartments in a house from 1896 in Akureyri’s old town. Open all year.</span><small>akureyrilodge.is</small></span>
       </a>
     </div>
   </div>
