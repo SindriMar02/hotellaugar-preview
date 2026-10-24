@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://hotellaugar.is/winter/</loc>
+    <loc>https://hotellaugar.is/summer/</loc>
     <lastmod>2026-10-24</lastmod>
-    <image:image><image:loc>https://hotellaugar.is/photos/winter-laugar-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/houses-valley-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/lakeside-chairs-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/hero-lake-1600.webp</image:loc></image:image>
