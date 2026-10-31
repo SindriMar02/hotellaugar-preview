@@ -33,12 +33,14 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/food/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/dinner-main-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/restaurant-bright-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/lamb-900.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/char-900.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/coffee-pour-900.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/buffet-counter-1000.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/breakfast-eggs-900.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/lakeside-chairs-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/lounge-sofa-900.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
@@ -47,8 +49,13 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/explore/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/valley-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/godafoss-800.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/dimmuborgir-700.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/whales-husavik-720.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/akureyri-church-700.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/dettifoss-700.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/aerial-pool-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
