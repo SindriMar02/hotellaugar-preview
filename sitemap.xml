@@ -11,19 +11,23 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/hero-lake-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/pond-tall-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/grounds-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/room-overview-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/dinner-main-2000.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sunset-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-gentle-giants-900.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-forest-lagoon-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-kip-askja-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-whales-horses-890.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://hotellaugar.is/rooms/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/room-overview-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/room-twin-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/grounds-1600.webp</image:loc></image:image>
@@ -33,7 +37,7 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/food/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/dinner-main-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/restaurant-bright-1400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/lamb-900.webp</image:loc></image:image>
@@ -49,7 +53,7 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/explore/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/valley-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/godafoss-800.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/dimmuborgir-700.webp</image:loc></image:image>
@@ -57,13 +61,25 @@
     <image:image><image:loc>https://hotellaugar.is/photos/akureyri-church-700.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/dettifoss-700.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/aerial-pool-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-north-sailing-720.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-gentle-giants-900.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-elding-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-arctic-sea-tours-1181.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-earth-lagoon-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-forest-lagoon-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-askja-classic-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-askja-jeep-960.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-kip-askja-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-whales-horses-890.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-snow-dogs-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-hestasport-1024.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/hero-lake-1600.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://hotellaugar.is/explore/reykjadalur/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/valley-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/aerial-pool-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/lakeside-chairs-1400.webp</image:loc></image:image>
@@ -74,7 +90,7 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/explore/godafoss/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/godafoss-1280.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/godafoss-aurora-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
@@ -83,16 +99,19 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/explore/myvatn/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/dimmuborgir-1024.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/earth-lagoon-1290.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-earth-lagoon-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-askja-classic-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-askja-jeep-960.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/hero-lake-1600.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://hotellaugar.is/explore/diamond-circle/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/valley-fields-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/godafoss-1280.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/whales-husavik-720.webp</image:loc></image:image>
@@ -103,16 +122,18 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/explore/husavik/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/whales-husavik-720.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/geosea-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-north-sailing-720.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-gentle-giants-900.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/hero-lake-1600.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://hotellaugar.is/explore/dettifoss-asbyrgi/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/dettifoss-1024.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
@@ -120,15 +141,17 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/explore/akureyri/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/akureyri-church-1067.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-elding-1200.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/tour-forest-lagoon-1200.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/hero-lake-1600.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://hotellaugar.is/gallery/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/hero-lake-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/pond-tall-900.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/valley-1600.webp</image:loc></image:image>
@@ -136,7 +159,7 @@
     <image:image><image:loc>https://hotellaugar.is/photos/aerial-pool-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/lakeside-chairs-900.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sunset-1000.webp</image:loc></image:image>
-    <image:image><image:loc>https://hotellaugar.is/photos/godafoss-aurora-1000.webp</image:loc></image:image>
+    <image:image><image:loc>https://hotellaugar.is/photos/reykjadalsa-river-1000.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/aurora-hotel-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/valley-fog-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/room-overview-1400.webp</image:loc></image:image>
@@ -157,14 +180,14 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/questions/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/hero-lake-1600.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://hotellaugar.is/book/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/pond-building-900.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
@@ -172,7 +195,7 @@
   </url>
   <url>
     <loc>https://hotellaugar.is/privacy/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-villanorth-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/sister-akureyrilodge-1600.webp</image:loc></image:image>
     <image:image><image:loc>https://hotellaugar.is/photos/hero-lake-1600.webp</image:loc></image:image>
